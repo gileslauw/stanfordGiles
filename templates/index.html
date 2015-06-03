@@ -21,14 +21,14 @@ show_partners = microsite.get_value('show_partners', True)
 
 <section class="home">
 
-    <section class="container" style="min-width: 480px;">
+    <section class="container" style="min-width: 200px;">
         <section class="highlighted-courses">
             % if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
             <section class="courses">
                 <div class="container-fluid">
                     <div class="row">
                         %for course in courses:
-                        <div class="col-xs-12 col-md-4 col-lg-3">
+                        <div class="col-xs-12 col-md-3 col-lg-2">
                             <%include file="course.html" args="course=course" />
                         </div>
                         %endfor</div>
@@ -57,8 +57,6 @@ show_partners = microsite.get_value('show_partners', True)
         if(getParameterByName('next')) {
             $('#login').trigger("click");
         }
-
-            $(header).hide();
 
     })
 </script>
