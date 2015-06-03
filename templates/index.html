@@ -1,0 +1,75 @@
+<%! from django.utils.translation import ugettext as _ %>
+
+<%! from django.core.urlresolvers import reverse %>
+<%inherit file="main.html" />
+<%namespace name='static' file='static_content.html'/>
+
+<%! from microsite_configuration import microsite %>
+
+<%
+homepage_overlay_html = microsite.get_value('homepage_overlay_html')
+
+## To display a welcome video, change False to True, and add a YouTube ID (11 chars, eg "123456789xX") in the following line
+show_homepage_promo_video = microsite.get_value('show_homepage_promo_video', False)
+homepage_promo_video_youtube_id = microsite.get_value('homepage_promo_video_youtube_id', "your-youtube-id")
+
+show_partners = microsite.get_value('show_partners', True)
+
+%>
+
+
+
+<section class="home">
+
+    <section class="container" style="min-width: 480px;">
+        <section class="highlighted-courses">
+            % if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
+            <section class="courses">
+                <div class="container-fluid">
+                    <div class="row">
+                        %for course in courses:
+                        <div class="col-xs-12 col-md-4 col-lg-3">
+                            <%include file="course.html" args="course=course" />
+                        </div>
+                        %endfor</div>
+                </div>
+            </section>
+            % endif
+        </section>
+    </section>
+</section>
+
+<section id="video-modal" class="modal home-page-video-modal video-modal">
+    <div class="inner-wrapper">
+        <%
+        youtube_video_id = homepage_promo_video_youtube_id
+        if self.stanford_theme_enabled():
+        youtube_video_id = "2gmreZObCY4"
+        %>
+        <iframe title="YouTube Video" width="640" height="360" src="//www.youtube.com/embed/${youtube_video_id}?showinfo=0" frameborder="0" allowfullscreen></iframe>
+    </div>
+</section>
+
+<%block name="js_extra">
+<script src="jquery.min.js"></script>
+<script type="text/javascript">
+    $(window).load(function() {
+        if(getParameterByName('next')) {
+            $('#login').trigger("click");
+        }
+
+            $(header).hide();
+
+    })
+</script>
+</%block>
+
+% if show_signup_immediately is not UNDEFINED:
+## NOTE: This won't work in production, because anonymous views are cached, so it will
+## show either with or without this extra js for 3 minutes at a time.
+
+<script type="text/javascript">
+    $(window).load(function() {$('#signup_action').trigger("click");});
+
+</script>
+% endif
