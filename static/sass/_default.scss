@@ -252,6 +252,7 @@ a{
     margin-top:100px;
     margin-bottom: 100px;
     width:1200px;
+    padding-left:10px;
 
 
 }
@@ -259,7 +260,7 @@ a{
 .vak{
     display: inline-block;
     float:left;
-    margin:5px;
+    margin:10px;
     width: 200px;
     height: 80px;
 
@@ -276,7 +277,8 @@ a{
     padding-top: 10px;
     padding-bottom: 10px;
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-style: oblique;
+    font-weight: bold;
+    font-size: small;
     color:$gray;
 }
 
