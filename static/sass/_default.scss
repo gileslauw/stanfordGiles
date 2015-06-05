@@ -227,6 +227,7 @@ $LogoHowest-url: '../themes/default/images/howest.png';
 .logo>a>img{
     content:url($LogoHowest-url);
     margin-top: -17px;
+    margin-left:25px;
 
 }
 
@@ -243,6 +244,10 @@ header.global{
 }
 a{
     color:$secondary;
+}
+
+nav ol{
+    margin-right: 40px;
 }
 
 .vakken{
@@ -300,7 +305,7 @@ a{
 
 #web{
     background-color: #ffff00;
-     margin-left: 10px;
+     margin-left: 50px;
 }
 #des{background-color: #6aca25;}
 #infrastructure{background-color: #651296;}
