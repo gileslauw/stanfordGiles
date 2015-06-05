@@ -10,7 +10,7 @@
 //-----------------
 
 //Main Color Variables
-$main-color: #f7691f;
+$main-color: #fff;
 $dark-color: #ea281f; //Link Color
 $light-color: #f4e00c; //Selected Header BG Color, ie. calendar        ***Custom, not from palette***
 $bg-color: #f7fe81; //Selected Content BG Color, ie. calendar          ***Custom, not from palette***
@@ -241,7 +241,4 @@ header.global{
     visibility: hidden;
 }
 
-.nav-courseware-01{
-    background-color: #fff;
-    color: #3cb5de;
-}
+
