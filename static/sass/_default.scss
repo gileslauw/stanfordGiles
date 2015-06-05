@@ -318,7 +318,11 @@ nav ol{
     margin-top: 300px !important;
 }
 
-.description{
+.description
+{
     display: none;
+    position: relative;
+    top: 100px;
+    left:400px;
 }
 

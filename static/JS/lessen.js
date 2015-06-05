@@ -3,7 +3,7 @@
  */
 
 var main = function() {
-    $('.vakken').click(function () {
+    $('.vak').click(function () {
 
         $('.description').hide();
         $(this).children('.description').show();
