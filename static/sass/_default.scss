@@ -281,11 +281,11 @@ a{
     font-size: small;
     color:$gray;
 
-    -webkit-transition: padding-top 2s;
-    -moz-transition: padding-top 2s;
-    -o-transition: padding-top 2s;
-    -ms-transition: padding-top 2s;
-    transition: padding-top 2s;
+    -webkit-transition: padding-top 500ms;
+    -moz-transition: padding-top 500ms;
+    -o-transition: padding-top 500ms;
+    -ms-transition: padding-top 500ms;
+    transition: padding-top 500ms;
 }
 
 .vak>p:hover{
