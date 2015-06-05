@@ -246,12 +246,13 @@ a{
 }
 
 .vakken{
-    display: block;
+    display: inline-block;
 
 }
 
 .vak{
-    display: block;
+    display: inline-block;
+    float:left;
     width: 200px;
     height: 80px;
     background-color: #3cb5de;
