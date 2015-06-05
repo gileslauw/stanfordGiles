@@ -280,6 +280,16 @@ a{
     font-weight: bold;
     font-size: small;
     color:$gray;
+
+    -webkit-transition: padding-top 2s;
+    -moz-transition: padding-top 2s;
+    -o-transition: padding-top 2s;
+    -ms-transition: padding-top 2s;
+    transition: padding-top 2s;
+}
+
+.vak>p:hover{
+    padding-top: 5px;
 }
 
 #web{
