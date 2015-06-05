@@ -11,7 +11,7 @@
 
 //Main Color Variables
 $main-color: #fff;
-$dark-color: #ea281f; //Link Color
+$dark-color: #fef200; //Link Color
 $light-color: #f4e00c; //Selected Header BG Color, ie. calendar        ***Custom, not from palette***
 $bg-color: #f7fe81; //Selected Content BG Color, ie. calendar          ***Custom, not from palette***
 
@@ -106,6 +106,7 @@ $button-bg-hover-color: $gray-1;
 $action-primary-bg: $main-color;
 $action-primary-fg: $gray-2;
 $action-primary-shadow: none;
+
 
 // focused - hover/active pseudo states
 $action-primary-focused-bg: $dark-color;
@@ -239,6 +240,9 @@ header.global{
 
 .powered-by{
     visibility: hidden;
+}
+a{
+    color:$secondary;
 }
 
 
