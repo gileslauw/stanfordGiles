@@ -268,17 +268,17 @@ a{
 
     text-align: center;
 
-    -webkit-transition: padding-top,padding-bottom 50ms;
-    -moz-transition: padding-top,padding-bottom 50ms;
-    -o-transition: padding-top,padding-bottom 50ms;
-    -ms-transition: padding-top,padding-bottom 50ms;
-    transition: padding-top,padding-bottom 50ms;
+    -webkit-transition: padding-top 50ms;
+    -moz-transition: padding-top 50ms;
+    -o-transition: padding-top 50ms;
+    -ms-transition: padding-top 50ms;
+    transition: padding-top 50ms;
 
 }
 
 .vak:hover{
     padding-top: 5px;
-    padding-bottom: 5px;
+
 }
 
 .vak>p{
