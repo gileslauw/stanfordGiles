@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc58d867-359f-4056-ab10-b705c2150aaf" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/sass/_default.scss" afterPath="$PROJECT_DIR$/static/sass/_default.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="edx-theme.iws" />
@@ -30,8 +31,8 @@
       <file leaf-file-name="_default.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/sass/_default.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.90340906" vertical-offset="3019" max-vertical-offset="3774">
-              <caret line="215" column="16" selection-start-line="215" selection-start-column="16" selection-end-line="215" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.90340906" vertical-offset="3121" max-vertical-offset="3876">
+              <caret line="221" column="4" selection-start-line="221" selection-start-column="4" selection-end-line="221" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -386,7 +387,13 @@
       <option name="project" value="LOCAL" />
       <updated>1433494736494</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="aangepast achtergrond kleur">
+      <created>1433494927597</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1433494927597</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -790,8 +797,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/sass/_default.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.90340906" vertical-offset="3019" max-vertical-offset="3774">
-          <caret line="215" column="16" selection-start-line="215" selection-start-column="16" selection-end-line="215" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.90340906" vertical-offset="3121" max-vertical-offset="3876">
+          <caret line="221" column="4" selection-start-line="221" selection-start-column="4" selection-end-line="221" selection-end-column="4" />
           <folding />
         </state>
       </provider>

@@ -209,9 +209,15 @@ $video-thumb-url: '../themes/default/images/sunrise.jpg';
 
 
 
-.home>header{
+.home>header {
     visibility: hidden;
     height: 0px;
     padding: 0px;
     margin: 0px;
+}
+.outer-wrapper{
+
+    height: 0px;
+    padding:0px;
+    
 }
