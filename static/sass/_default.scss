@@ -191,6 +191,7 @@ $login-banner-image: none;
 $register-banner-image: none;
 
 $video-thumb-url: '../themes/default/images/sunrise.jpg';
+$LogoHowest-url: '../themes/default/images/howest.png';
 
 //-----------------
 //  Mixin Styles
@@ -223,5 +224,5 @@ $video-thumb-url: '../themes/default/images/sunrise.jpg';
 }
 
 .logo>a>img{
-    content:url('student.howest.be/giles.lauwers/drawable/logo.png')
+    content:url($LogoHowest-url)
 }
