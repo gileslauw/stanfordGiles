@@ -263,17 +263,28 @@ a{
     margin:10px;
     width: 200px;
     height: 80px;
+    padding-top:25px ;
 
 
     text-align: center;
 
+    -webkit-transition: padding-top 50ms;
+    -moz-transition: padding-top 50ms;
+    -o-transition: padding-top 50ms;
+    -ms-transition: padding-top 50ms;
+    transition: padding-top 50ms;
+
+}
+
+.vak:hover{
+    padding-top: 5px;
 }
 
 .vak>p{
     background-color: #fff;
     margin-left: -10px;
     width:220px;
-    margin-top: 25px;
+
     padding-top: 10px;
     padding-bottom: 10px;
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -281,16 +292,10 @@ a{
     font-size: small;
     color:$gray;
 
-    -webkit-transition: margin-top 50ms;
-    -moz-transition: margin-top 50ms;
-    -o-transition: margin-top 50ms;
-    -ms-transition: margin-top 50ms;
-    transition: margin-top 50ms;
+
 }
 
-.vak>p:hover{
-    margin-top: 10px;
-}
+
 
 #web{
     background-color: #ffff00;
