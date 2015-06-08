@@ -116,7 +116,7 @@ $action-primary-focused-fg: $gray-1;
 $action-primary-active-bg: $dark-color;
 $action-primary-active-fg: $gray-1;
 $action-primary-active-shadow: none;
-$action-primary-active-focused-fg: $gray-2;
+$action-primary-active-focused-fg: #fff;
 $action-primary-active-focused-shadow: none;
 
 // disabled
@@ -235,13 +235,6 @@ header.global{
     border-width: 0px;
 }
 
-.nav-global-04 a{
-  color: #fff;
-}
-
-.nav-courseware-01 a{
-  color: #3CB5DE;
-}
 
 .wrapper-logo>p>a>img{
     content:url($LogoHowest-url);
