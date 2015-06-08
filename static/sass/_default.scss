@@ -369,7 +369,12 @@ footer a:hover{
 
 .profile-sidebar{
   visibility: hidden !important;
+  height: 0px !important;
   width: 0px !important;
+}
+
+#my-courses{
+  width: 100%;
 }
 
 a.cover{
