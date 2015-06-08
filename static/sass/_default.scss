@@ -372,4 +372,8 @@ footer a:hover{
   width: 0px !important;
 }
 
-a.cover
+a.cover{
+  overflow: visible !important;
+  border: none !important;
+  border-bottom: none !important;
+}
