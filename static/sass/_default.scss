@@ -235,6 +235,14 @@ header.global{
     border-width: 0px;
 }
 
+header.global>a:link{
+    color:#3CB5DE;
+}
+
+header.global>nav>ol>li{
+  color: #ffffff;
+}
+
 .wrapper-logo>p>a>img{
     content:url($LogoHowest-url);
 }
@@ -243,7 +251,7 @@ header.global{
     visibility: hidden;
 }
 a{
-    color:$secondary;
+    color:#3CB5DE;
 }
 
 nav ol{
