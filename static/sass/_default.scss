@@ -104,13 +104,13 @@ $button-bg-hover-color: $gray-1;
 
 // actions - primary
 $action-primary-bg: $main-color;
-$action-primary-fg: $gray-2;
+$action-primary-fg: #3cb5de;
 $action-primary-shadow: none;
 
 
 // focused - hover/active pseudo states
 $action-primary-focused-bg: $dark-color;
-$action-primary-focused-fg: $gray-1;
+$action-primary-focused-fg: #3cb5de;
 
 // current or active navigation item
 $action-primary-active-bg: $dark-color;
