@@ -109,13 +109,14 @@ $action-primary-shadow: none;
 
 
 // focused - hover/active pseudo states
-$action-primary-focused-fg: #3cb5de;
+$action-primary-bg: #3cb5de;
+$action-primary-focused-fg: #fff;
 
 // current or active navigation item
 $action-primary-active-bg: $dark-color;
 $action-primary-active-fg: $gray-1;
 $action-primary-active-shadow: none;
-$action-primary-active-focused-fg: #3cb5de;
+$action-primary-active-focused-fg: #fff;
 $action-primary-active-focused-shadow: none;
 
 // disabled
