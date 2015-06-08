@@ -35,7 +35,7 @@ $gray-1: #ffffff; //Main BG Color
 $white: $gray-1;
 
 $black: #2e2e2e;
-$black-80: #585858;
+$black-80: #fff;
 
 
 
@@ -110,7 +110,7 @@ $action-primary-shadow: none;
 
 // focused - hover/active pseudo states
 $action-primary-focused-bg: $dark-color;
-$action-primary-focused-fg: #3cb5de;
+$action-primary-focused-fg: #fff;
 
 // current or active navigation item
 $action-primary-active-bg: $dark-color;
