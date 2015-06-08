@@ -306,8 +306,13 @@ nav ol{
 
 }
 
-.cta{
+.nav-courseware-01{
   background-color: #fff !important;
+  color: #3CB5DE !important;
+}
+
+.nav-courseware-01:hover{
+  background-color: #fef200 !important;
   color: #3CB5DE !important;
 }
 
@@ -343,6 +348,6 @@ footer a{
 }
 
 footer a:hover{
-  color: #f7fe81;
+  color: #fef200 !important;
 }
 
