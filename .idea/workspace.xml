@@ -30,7 +30,7 @@
       <file leaf-file-name="_default.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/sass/_default.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="389" column="35" selection-start="7907" selection-end="7907" vertical-scroll-proportion="0.8955917" vertical-offset="5063" max-vertical-offset="5955">
+            <state line="394" column="16" selection-start="7990" selection-end="7990" vertical-scroll-proportion="0.8433875" vertical-offset="5183" max-vertical-offset="6045">
               <folding />
             </state>
           </provider>
@@ -661,7 +661,11 @@
       <created>1433769737733</created>
       <updated>1433769737734</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="aangepast achtergrond kleur">
+      <created>1433771104630</created>
+      <updated>1433771104630</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1001,7 +1005,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/sass/_default.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="389" column="35" selection-start="7907" selection-end="7907" vertical-scroll-proportion="0.8955917" vertical-offset="5063" max-vertical-offset="5955">
+        <state line="394" column="16" selection-start="7990" selection-end="7990" vertical-scroll-proportion="0.8433875" vertical-offset="5183" max-vertical-offset="6045">
           <folding />
         </state>
       </provider>
