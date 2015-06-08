@@ -328,7 +328,7 @@ header .cta:hover{
 
 
 .container{
-  
+
 }
 
 .description
@@ -351,7 +351,7 @@ footer a:hover{
   color: #fef200 !important;
 }
 
-// courses
+// login
 
 #email, #password{
   color: #3CB5DE !important;
@@ -363,4 +363,10 @@ footer a:hover{
 
 #submit:hover{
   background-color: #fef200 !important;
+}
+
+// courses
+
+.profile-sidebar{
+  visibility: hidden !important;
 }
