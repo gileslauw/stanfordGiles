@@ -18,7 +18,7 @@ $bg-color: #f7fe81; //Selected Content BG Color, ie. calendar          ***Custom
 //Main BG Color Variables
 $main-bg: #fff;
 $main-bg-60: lighten($main-bg, 18.5%); //Main Border/HR Color
-$main-bg-25: lighten($main-bg, 25%); 
+$main-bg-25: lighten($main-bg, 25%);
 
 //Secondary Color Variables
 $secondary: #3cb5de;
@@ -30,8 +30,8 @@ $gray: #3f3f3f; //Main Text Color
 $gray-75: lighten($gray, 18.25%); //Lighter Text Color
 
 $gray-3: #e9e9e9; //Block/Course BG Color
-$gray-2: gray;
-$gray-1: #2e2e2e; //Main BG Color
+$gray-2: #fff;
+$gray-1: #fff; //Main BG Color
 $white: $gray-1;
 
 $black: #2e2e2e;
@@ -197,24 +197,24 @@ $LogoHowest-url: '../themes/default/images/howest.png';
 //  Mixin Styles
 //-----------------
 @mixin login_register_h1_style {
-    clip: auto !important;
-    height: 50px;
-    width: 550px;
-    top: 0;
+  clip: auto !important;
+  height: 50px;
+  width: 550px;
+  top: 0;
 }
 
 @mixin footer_references_style {
-    margin: 0 !important;
-    text-align: right;
+  margin: 0 !important;
+  text-align: right;
 }
 
 
 
 .home>header {
-    visibility: hidden;
-    height: 0px;
-    padding: 0px;
-    margin: 0px;
+  visibility: hidden;
+  height: 0px;
+  padding: 0px;
+  margin: 0px;
 }
 
 header a{
@@ -223,85 +223,85 @@ header a{
 
 .outer-wrapper{
 
-    height: 0px;
-    padding:0px;
+  height: 0px;
+  padding:0px;
 
 }
 
 .logo>a>img{
-    content:url($LogoHowest-url);
-    margin-top: -17px;
-    margin-left:25px;
+  content:url($LogoHowest-url);
+  margin-top: -17px;
+  margin-left:25px;
 
 }
 
 header.global{
-    border-width: 0px;
+  border-width: 0px;
 }
 
 
 .wrapper-logo>p>a>img{
-    content:url($LogoHowest-url);
+  content:url($LogoHowest-url);
 }
 
 .powered-by{
-    visibility: hidden;
+  visibility: hidden;
 }
 a{
-    color:#3CB5DE;
+  color:#3CB5DE;
 }
 
 nav ol{
-    margin-right: 40px;
+  margin-right: 40px;
 }
 
 .vakken{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top:100px;
-    margin-bottom: 100px;
-    width:1200px;
-    padding-left:10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:100px;
+  margin-bottom: 100px;
+  width:1200px;
+  padding-left:10px;
 
 
 }
 
 .vak{
-    display: inline-block;
-    float:left;
-    margin:10px;
-    width: 200px;
-    height: 80px;
-    padding-top:25px ;
+  display: inline-block;
+  float:left;
+  margin:10px;
+  width: 200px;
+  height: 80px;
+  padding-top:25px ;
 
 
-    text-align: center;
+  text-align: center;
 
-    -webkit-transition: padding-top 50ms;
-    -moz-transition: padding-top 50ms;
-    -o-transition: padding-top 50ms;
-    -ms-transition: padding-top 50ms;
-    transition: padding-top 50ms;
+  -webkit-transition: padding-top 50ms;
+  -moz-transition: padding-top 50ms;
+  -o-transition: padding-top 50ms;
+  -ms-transition: padding-top 50ms;
+  transition: padding-top 50ms;
 
 }
 
 .vak:hover{
-    padding-top: 5px;
+  padding-top: 5px;
 
 }
 
 .vak>p{
-    background-color: #fff;
-    margin-left: -10px;
-    width:220px;
+  background-color: #fff;
+  margin-left: -10px;
+  width:220px;
 
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: bold;
-    font-size: small;
-    color:$gray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: small;
+  color:$gray;
 
 
 }
@@ -317,8 +317,8 @@ nav ol{
 }
 
 #web{
-    background-color: #ffff00;
-     margin-left: 50px;
+  background-color: #ffff00;
+  margin-left: 50px;
 }
 #des{background-color: #6aca25;}
 #infrastructure{background-color: #651296;}
@@ -328,15 +328,15 @@ nav ol{
 
 
 .container{
-    margin-top: 300px !important;
+  margin-top: 300px !important;
 }
 
 .description
 {
-    display: none;
-    position: absolute;
-    top: 20em;
-    left:250px;
+  display: none;
+  position: absolute;
+  top: 20em;
+  left:250px;
 }
 
 footer{
@@ -352,5 +352,3 @@ footer a:hover{
 }
 
 // courses
-
-
