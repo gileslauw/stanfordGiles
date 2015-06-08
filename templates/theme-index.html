@@ -29,9 +29,11 @@ show_partners = microsite.get_value('show_partners', True)
                 <div class="container-fluid">
                     <div class="row">
                         %for course in courses:
+                        %if
                         <div class="col-xs-12 col-md-4 col-lg-3">
                             <%include file="course.html" args="course=course" />
                         </div>
+                        %endif
                         %endfor</div>
                 </div>
             </section>
