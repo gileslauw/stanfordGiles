@@ -43,12 +43,11 @@ $black-80: #fff;
 //  Font Assignment
 //-----------------
 
-$theme-sans-font: 'Source Sans';
-$sans-serif: $theme-sans-font, $sans-serif;
-$body-font-family: $sans-serif;
+$theme-sans-font: 'Ubuntu';
+$body-font-family: Ubuntu, sans-serif;
 
-$theme-serif-font: 'Crimson Text';
-$serif: $theme-serif-font, $serif;
+$theme-serif-font: 'Ubuntu';
+$serif: Ubuntu, sans-serif;
 
 
 
@@ -298,7 +297,7 @@ nav ol{
 
   padding-top: 10px;
   padding-bottom: 10px;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'ubuntu', Ubuntu, sans-serif;
   font-weight: bold;
   font-size: small;
   color:$gray;
