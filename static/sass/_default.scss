@@ -400,7 +400,13 @@ a.enter-course:hover{
 
 // course info
 
-
+.table .main-cta{
+  border: none !important;
+  border-bottom: none !important;
+  background-image: none !important;
+  background-color: #3CB5DE !important;
+  color: #fff !important;
+}
 
 .about h2{
   color: #2e2e2e !important;
@@ -414,3 +420,4 @@ a.enter-course:hover{
   visibility: hidden !important;
   height: 0px !important;
 }
+
