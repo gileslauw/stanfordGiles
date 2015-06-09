@@ -373,7 +373,7 @@ footer a:hover{
 // courses
 
 .info{
-  width: 64% !important;
+  width: 78% !important;
   height: 150px !important;
   float: left;
   padding: 0 0 0 100px !important;
@@ -386,12 +386,7 @@ footer a:hover{
   float: left;
 }
 
-.info h3{
-  float: left;
-}
-
 .university{
-  float: left;
   text-align: left !important;
 }
 
@@ -421,6 +416,7 @@ a.enter-course{
   background-color: #3CB5DE !important;
   position: relative !important;
   bottom: 20px;
+  float: right !important;
 }
 
 a.enter-course:hover{
