@@ -351,6 +351,12 @@ footer a:hover{
   color: #fef200 !important;
 }
 
+// home
+
+.verborgen{
+  width: "0px" !important;
+}
+
 // login
 
 #email, #password{
@@ -451,6 +457,10 @@ a.enter-course:hover{
 
 // find courses
 
+.my-courses h2{
+  color: #3CB5DE !important;
+}
+
 .empty-dashboard-message p{
   color: #3CB5DE !important;
 }
@@ -461,6 +471,3 @@ a.enter-course:hover{
   border: none !important;
 }
 
-.verborgen{
-  width: "0px" !important;
-}
