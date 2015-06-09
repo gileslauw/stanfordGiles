@@ -361,6 +361,16 @@ footer a:hover{
   top: 80px;
 }
 
+.home h1{
+  font-weight: bold;
+  font-size: 32pt;
+  color: #999 !important;
+}
+
+#overzicht, .description{
+  margin-top: 300px;
+}
+
 // login
 
 #email, #password{
