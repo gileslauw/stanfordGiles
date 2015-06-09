@@ -400,7 +400,7 @@ a.enter-course:hover{
 
 // course info
 
-.table .main-cta{
+.table .main-cta a{
   border: none !important;
   border-bottom: none !important;
   background-image: none !important;
@@ -408,7 +408,7 @@ a.enter-course:hover{
   color: #fff !important;
 }
 
-.table .main-cta:hover{
+.table .main-cta:hover a{
   border: none !important;
   border-bottom: none !important;
   background-image: none !important;
