@@ -405,11 +405,11 @@ footer a:hover{
 
 // courses
 
-//.info{
-//  width: 63% !important;
-//  height: 150px !important;
-//  padding: 0 0 0 400px !important;
-//}
+.info{
+  width: 63% !important;
+  height: 150px !important;
+  padding: 0 0 0 400px !important;
+}
 
 .info p{
   visibility: hidden;
@@ -427,9 +427,9 @@ text-align: left !important;
   width: 0px !important;
 }
 
-//#my-courses{
-//  width: 100%;
-//}
+#my-courses{
+  width: 100%;
+}
 
 a.cover{
   float: left;
@@ -445,9 +445,9 @@ a.enter-course{
   color: #fff !important;
   background-image: none !important;
   background-color: #3CB5DE !important;
-  //position: relative !important;
-  //bottom: 20px;
-  //float: right !important;
+  position: relative !important;
+  bottom: 20px;
+  float: right !important;
 }
 
 a.enter-course:hover{
