@@ -406,6 +406,11 @@ a.enter-course:hover{
   color: #2e2e2e !important;
 }
 
-.container .details a{
+.container .details a, .important-dates p{
   color: #3CB5DE !important;
+}
+
+.social-sharing{
+  visibility: hidden !important;
+  height: 0px !important;
 }
