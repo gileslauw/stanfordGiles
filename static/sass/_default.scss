@@ -371,6 +371,20 @@ footer a:hover{
   margin-top: 300px;
 }
 
+.description>h2{
+  color: #2e2e2e;
+  text-align: left;
+}
+
+.description>p{
+  text-align: left;
+  width: 50%;
+}
+
+.description{
+  margin-left: 20%;
+}
+
 // login
 
 #email, #password{
