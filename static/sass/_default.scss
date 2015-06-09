@@ -372,6 +372,10 @@ footer a:hover{
 
 // courses
 
+.info{
+  padding: 0 0 0 350px !important;
+}
+
 .profile-sidebar{
   visibility: hidden !important;
   height: 0px !important;
@@ -395,6 +399,8 @@ a.enter-course{
   color: #fff !important;
   background-image: none !important;
   background-color: #3CB5DE !important;
+  position: relative !important;
+  bottom: 20px;
 }
 
 a.enter-course:hover{
@@ -457,7 +463,10 @@ a.enter-course:hover{
 // find courses
 
 .my-courses h2{
+
   color: #3CB5DE !important;
+  text-align: center;
+
 }
 
 .empty-dashboard-message p{
