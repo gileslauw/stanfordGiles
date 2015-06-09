@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc58d867-359f-4056-ab10-b705c2150aaf" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/sass/_default.scss" afterPath="$PROJECT_DIR$/static/sass/_default.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="edx-theme.iws" />
@@ -29,16 +30,7 @@
       <file leaf-file-name="_default.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/sass/_default.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="398" column="1" selection-start="8112" selection-end="8112" vertical-scroll-proportion="1.0544136" vertical-offset="5098" max-vertical-offset="6060">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="theme-header.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/theme-header.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="240">
+            <state line="398" column="1" selection-start="8112" selection-end="8112" vertical-scroll-proportion="0.9799764" vertical-offset="5138" max-vertical-offset="6060">
               <folding />
             </state>
           </provider>
@@ -79,7 +71,7 @@
       <file leaf-file-name="theme-index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/theme-index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1215">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1245">
               <folding />
             </state>
           </provider>
@@ -228,24 +220,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="JS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edx-theme" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stanfordGiles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -509,174 +483,10 @@
       <updated>1433752346014</updated>
     </task>
     <task id="LOCAL-00048" summary="aangepast achtergrond kleur">
-      <created>1433754034533</created>
-      <updated>1433754034533</updated>
+      <created>1433753985700</created>
+      <updated>1433753985700</updated>
     </task>
-    <task id="LOCAL-00049" summary="aangepast achtergrond kleur">
-      <created>1433754296497</created>
-      <updated>1433754296497</updated>
-    </task>
-    <task id="LOCAL-00050" summary="aangepast achtergrond kleur">
-      <created>1433754486834</created>
-      <updated>1433754486834</updated>
-    </task>
-    <task id="LOCAL-00051" summary="aangepast achtergrond kleur">
-      <created>1433754563370</created>
-      <updated>1433754563370</updated>
-    </task>
-    <task id="LOCAL-00052" summary="aangepast achtergrond kleur">
-      <created>1433755360485</created>
-      <updated>1433755360485</updated>
-    </task>
-    <task id="LOCAL-00053" summary="aangepast achtergrond kleur">
-      <created>1433755649054</created>
-      <updated>1433755649054</updated>
-    </task>
-    <task id="LOCAL-00054" summary="aangepast achtergrond kleur">
-      <created>1433756056392</created>
-      <updated>1433756056392</updated>
-    </task>
-    <task id="LOCAL-00055" summary="aangepast achtergrond kleur">
-      <created>1433756233696</created>
-      <updated>1433756233696</updated>
-    </task>
-    <task id="LOCAL-00056" summary="aangepast achtergrond kleur">
-      <created>1433756397582</created>
-      <updated>1433756397582</updated>
-    </task>
-    <task id="LOCAL-00057" summary="aangepast achtergrond kleur">
-      <created>1433756638652</created>
-      <updated>1433756638652</updated>
-    </task>
-    <task id="LOCAL-00058" summary="aangepast achtergrond kleur">
-      <created>1433756856615</created>
-      <updated>1433756856615</updated>
-    </task>
-    <task id="LOCAL-00059" summary="aangepast achtergrond kleur">
-      <created>1433761477841</created>
-      <updated>1433761477841</updated>
-    </task>
-    <task id="LOCAL-00060" summary="aangepast achtergrond kleur">
-      <created>1433761667033</created>
-      <updated>1433761667033</updated>
-    </task>
-    <task id="LOCAL-00061" summary="aangepast achtergrond kleur">
-      <created>1433762055731</created>
-      <updated>1433762055731</updated>
-    </task>
-    <task id="LOCAL-00062" summary="aangepast achtergrond kleur">
-      <created>1433762233088</created>
-      <updated>1433762233088</updated>
-    </task>
-    <task id="LOCAL-00063" summary="aangepast achtergrond kleur">
-      <created>1433762435750</created>
-      <updated>1433762435750</updated>
-    </task>
-    <task id="LOCAL-00064" summary="aangepast achtergrond kleur">
-      <created>1433762602157</created>
-      <updated>1433762602157</updated>
-    </task>
-    <task id="LOCAL-00065" summary="aangepast achtergrond kleur">
-      <created>1433763140454</created>
-      <updated>1433763140454</updated>
-    </task>
-    <task id="LOCAL-00066" summary="aangepast achtergrond kleur">
-      <created>1433763380222</created>
-      <updated>1433763380223</updated>
-    </task>
-    <task id="LOCAL-00067" summary="aangepast achtergrond kleur">
-      <created>1433763639192</created>
-      <updated>1433763639192</updated>
-    </task>
-    <task id="LOCAL-00068" summary="aangepast achtergrond kleur">
-      <created>1433763869782</created>
-      <updated>1433763869782</updated>
-    </task>
-    <task id="LOCAL-00069" summary="aangepast achtergrond kleur">
-      <created>1433764024836</created>
-      <updated>1433764024837</updated>
-    </task>
-    <task id="LOCAL-00070" summary="aangepast achtergrond kleur">
-      <created>1433764092945</created>
-      <updated>1433764092945</updated>
-    </task>
-    <task id="LOCAL-00071" summary="aangepast achtergrond kleur">
-      <created>1433764493292</created>
-      <updated>1433764493292</updated>
-    </task>
-    <task id="LOCAL-00072" summary="aangepast achtergrond kleur">
-      <created>1433764695646</created>
-      <updated>1433764695647</updated>
-    </task>
-    <task id="LOCAL-00073" summary="aangepast achtergrond kleur">
-      <created>1433765098500</created>
-      <updated>1433765098500</updated>
-    </task>
-    <task id="LOCAL-00074" summary="aangepast achtergrond kleur">
-      <created>1433765502921</created>
-      <updated>1433765502921</updated>
-    </task>
-    <task id="LOCAL-00075" summary="aangepast achtergrond kleur">
-      <created>1433765579456</created>
-      <updated>1433765579456</updated>
-    </task>
-    <task id="LOCAL-00076" summary="aangepast achtergrond kleur">
-      <created>1433766838509</created>
-      <updated>1433766838509</updated>
-    </task>
-    <task id="LOCAL-00077" summary="aangepast achtergrond kleur">
-      <created>1433766862773</created>
-      <updated>1433766862774</updated>
-    </task>
-    <task id="LOCAL-00078" summary="aangepast achtergrond kleur">
-      <created>1433767112542</created>
-      <updated>1433767112542</updated>
-    </task>
-    <task id="LOCAL-00079" summary="aangepast achtergrond kleur">
-      <created>1433767146269</created>
-      <updated>1433767146269</updated>
-    </task>
-    <task id="LOCAL-00080" summary="aangepast achtergrond kleur">
-      <created>1433767574001</created>
-      <updated>1433767574001</updated>
-    </task>
-    <task id="LOCAL-00081" summary="aangepast achtergrond kleur">
-      <created>1433767951955</created>
-      <updated>1433767951955</updated>
-    </task>
-    <task id="LOCAL-00082" summary="aangepast achtergrond kleur">
-      <created>1433768205481</created>
-      <updated>1433768205482</updated>
-    </task>
-    <task id="LOCAL-00083" summary="aangepast achtergrond kleur">
-      <created>1433768481492</created>
-      <updated>1433768481493</updated>
-    </task>
-    <task id="LOCAL-00084" summary="aangepast achtergrond kleur">
-      <created>1433769227206</created>
-      <updated>1433769227206</updated>
-    </task>
-    <task id="LOCAL-00085" summary="aangepast achtergrond kleur">
-      <created>1433769737733</created>
-      <updated>1433769737734</updated>
-    </task>
-    <task id="LOCAL-00086" summary="aangepast achtergrond kleur">
-      <created>1433771104630</created>
-      <updated>1433771104630</updated>
-    </task>
-    <task id="LOCAL-00087" summary="aangepast achtergrond kleur">
-      <created>1433771350063</created>
-      <updated>1433771350063</updated>
-    </task>
-    <task id="LOCAL-00088" summary="aangepast achtergrond kleur">
-      <created>1433771548069</created>
-      <updated>1433771548069</updated>
-    </task>
-    <task id="LOCAL-00089" summary="aangepast achtergrond kleur">
-      <created>1433771603542</created>
-      <updated>1433771603542</updated>
-    </task>
-    <option name="localTasksCounter" value="90" />
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -688,7 +498,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16030534" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16248637" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28020832" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -932,6 +742,11 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/theme-header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/theme-google-analytics.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
@@ -962,6 +777,11 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/sunrise.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/theme-courses.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
@@ -988,13 +808,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/JS/lessen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/theme-index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
@@ -1002,21 +815,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/theme-header.html">
+    <entry file="file://$PROJECT_DIR$/static/JS/lessen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="240">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/sunrise.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/sass/_default.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="398" column="1" selection-start="8112" selection-end="8112" vertical-scroll-proportion="1.0544136" vertical-offset="5098" max-vertical-offset="6060">
+        <state line="398" column="1" selection-start="8112" selection-end="8112" vertical-scroll-proportion="0.9799764" vertical-offset="5138" max-vertical-offset="6060">
           <folding />
         </state>
       </provider>
