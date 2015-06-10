@@ -210,10 +210,16 @@ $LogoHowest-url: '../themes/default/images/howest.png';
 
 
 .home>header {
-  visibility: hidden;
-  height: 0px;
-  padding: 0px;
-  margin: 0px;
+
+  height: auto !important;
+
+}
+.home>header>img{
+  width: 100%;
+}
+.home>header>h2{
+  text-align: center;
+  margin-top: -100px;
 }
 
 header a{
@@ -254,7 +260,7 @@ a{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top:60px;
+
   margin-bottom: 100px;
   width:1200px;
   padding-left:10px;
@@ -331,7 +337,8 @@ header .cta:hover{
   display: none;
   position: absolute;
   top: 20em;
-  left:250px;
+  left:20%;
+  width:60%;
 }
 
 footer{
