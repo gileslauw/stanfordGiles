@@ -423,10 +423,13 @@ footer a:hover{
 }
 
 // login
+.group-form .group-form-requiredinformation{
+  width:76%!important;
+}
 
 #email, #password{
   color: #3CB5DE !important;
-  width:76%;
+
 }
 
 #submit{
@@ -599,11 +602,17 @@ a.enter-course:hover{
 .introduction{
   background-color:rgba(255,255,255,0.47)!important;
   width:30% !important;
+  min-width: 300px!important;
 }
 .login{
   background-color: rgba(255,255,255,0.47)!important;
+  min-width: 300px!important;
+  width: 30%!important;
 }
 #loginscherm{
   width: 30%!important;
+}
+#loginding{
+  width:76%!important;
 }
 
