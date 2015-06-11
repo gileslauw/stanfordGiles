@@ -207,6 +207,8 @@ $LogoHowest-url: '../themes/default/images/howest.png';
   text-align: right;
 }
 
+
+
 @media all and (max-width: 1200px) { /* screen size until 1200px */
   h2 {
     font-size: 2em!important; /* 1.5x default size */
@@ -216,6 +218,10 @@ $LogoHowest-url: '../themes/default/images/howest.png';
   h2 {
     font-size: 1em!important; /* 1.2x default size */
   }
+  .logo{
+    width: 0.5em;
+  }
+
 }
 @media all and (max-width: 500px) { /* screen size until 500px */
   h2 {
@@ -265,6 +271,10 @@ header a{
 
 header.global{
   border-width: 0px;
+}
+
+header.global>nav{
+  min-width: 300px!important;
 }
 
 
@@ -618,5 +628,13 @@ a.enter-course:hover{
 
 #loginklein{
   width:130%;
+}
+
+.status.message.is-shown{
+  width: 76%;
+}
+#tussenstuk{
+  width: 80%;
+  height: 5px;
 }
 
