@@ -218,8 +218,10 @@ $LogoHowest-url: '../themes/default/images/howest.png';
   h2 {
     font-size: 1em!important; /* 1.2x default size */
   }
-  .logo{
-    width: 0.5em;
+  .logo>a>img{
+    width: 3em;
+    margin-top: 1px!important;
+
   }
 
 }
@@ -636,5 +638,19 @@ a.enter-course:hover{
 #tussenstuk{
   width: 80%;
   height: 5px;
+}
+
+#afbeelding{
+  position: fixed;
+  top:0px;
+  z-index:-5;
+}
+#content{
+  background-color: transparent;
+}
+.register{
+  background-color: rgba(255,255,255,0.47);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
