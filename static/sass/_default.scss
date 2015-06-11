@@ -405,10 +405,12 @@ footer a:hover{
 
 #email, #password{
   color: #3CB5DE !important;
+  width:76%;
 }
 
 #submit{
   background-color: #3CB5DE !important;
+  width: 76%!important;
 }
 
 #submit:hover{
@@ -569,12 +571,17 @@ a.enter-course:hover{
   background-image: url("http://student.howest.be/giles.lauwers/drawable/blur.png");
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 200px;
+  padding-bottom: 100px;
+  padding-top:100px;
 }
 
 .introduction{
   background-color:rgba(255,255,255,0.47)!important;
+  width:30% !important;
 }
 .login{
   background-color: rgba(255,255,255,0.47)!important;
+}
+.view-login{
+  width: 30%!important;
 }
