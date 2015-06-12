@@ -660,20 +660,19 @@ a.enter-course:hover{
 }
 
 #registercontent{
-  width: 60%!important;
-  min-width: 300px;
+  width: 100%!important;
+  min-width: 300px!important;
 }
 #introregister{
-  width: 40%;
-  min-width: 300px;
+  padding-top: 100px!important;
+  width: 40%!important;
+  min-width: 300px!important;
 }
 
 #registercontainer{
   width: 40%!important;
-  min-width: 300px;
+  min-width: 300px!important;
+  padding-bottom: 100px!important;
 }
-#content{
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
+
 
