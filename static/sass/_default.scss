@@ -666,7 +666,7 @@ a.enter-course:hover{
   min-width: 300px!important;
 }
 #introregister{
-  margin-top: 100px!important;
+
   width: 40%!important;
   min-width: 300px!important;
 }
@@ -674,7 +674,15 @@ a.enter-course:hover{
 #registercontainer{
   width: 40%!important;
   min-width: 350px!important;
-  margin-bottom: 100px!important;
+
+}
+
+#registreerscherm{
+  background-image: url("http://student.howest.be/giles.lauwers/drawable/study.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  padding-bottom:100px;
 }
 
 
