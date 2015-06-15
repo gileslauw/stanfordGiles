@@ -457,6 +457,14 @@ footer a:hover{
 
 // courses
 
+.info .wrapper-course-material{
+  padding: 0 0 0 0 !important;
+}
+
+.course-tabs{
+  height: 66px !important;
+}
+
 .info{
   width: 63% !important;
   height: 150px !important;
@@ -730,10 +738,6 @@ a.enter-course:hover{
 }
 
 // courseware
-
-.info .wrapper-course-material{
-  padding-left: 35px !important;
-}
 
 .provider{
   color: #fff !important;
