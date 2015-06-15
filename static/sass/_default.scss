@@ -224,6 +224,15 @@ $LogoHowest-url: '../themes/default/images/howest.png';
 
   }
 
+ .wrapper-course-details{
+   margin-top: 50px;
+   margin-left: 3%;
+
+ }
+  a.enter-course{
+    float:left!important;
+    margin-left: -53%!important;
+  }
 }
 @media all and (max-width: 500px) { /* screen size until 500px */
   h2 {
@@ -760,6 +769,15 @@ a.enter-course:hover{
 
 .image-content .label{
   color: #3CB5DE !important;
+}
+
+.wrapper-course-details{
+  padding-left: 80px;
+  padding-right: 40px;
+}
+.course-title{
+  width:300px;
+  font-size:0.9em;
 }
 
 
