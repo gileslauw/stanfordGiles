@@ -225,8 +225,12 @@ $LogoHowest-url: '../themes/default/images/howest.png';
   }
 
  .wrapper-course-details{
-   margin-top: 50px;
-   margin-left: 3%;
+
+   
+   min-width:300px!important;
+   margin-left: -35%!important;
+   margin-top: 150px!important;
+
 
  }
   a.enter-course{
