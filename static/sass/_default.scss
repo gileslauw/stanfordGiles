@@ -239,9 +239,13 @@ $LogoHowest-url: '../themes/default/images/howest.png';
     margin-top: 200px!important;
   }
 }
-@media all and (max-width: 500px) { /* screen size until 500px */
+@media all and (max-width: 600px) {
   h2 {
-    font-size: 0.6em!important; /* 0.8x default size */
+    font-size: 0.6em!important;
+
+  }
+  header.global{
+    height: 8em!important;
   }
 }
 
