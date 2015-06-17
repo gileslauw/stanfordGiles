@@ -445,13 +445,13 @@ a{
 }
 
 header .cta{
-  background-color: #fff !important;
-  color: #3CB5DE !important;
+  background-color: transparent !important;
+  color: #fff !important;
 }
 
 header .cta:hover{
-  background-color: #fef200 !important;
-  color: #3CB5DE !important;
+  background-color: transparent !important;
+  color: #ffff00 !important;
 }
 
 #web{
@@ -891,7 +891,7 @@ a.enter-course:hover{
 }
 
 header.global .user a.user-link{
-  padding: 5px 12px 8px 10px;
+  padding: 5px 12px 8px 10px!important;
 }
 
 
