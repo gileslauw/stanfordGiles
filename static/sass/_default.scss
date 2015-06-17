@@ -236,6 +236,14 @@ $LogoHowest-url: '../themes/default/images/howest.png';
 
 
   }
+
+    #uitleg{
+      width:1100px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 80px;
+
+    }
 }
 
 @media all and (max-width: 1120px) { /* screen size until 1200px */
@@ -251,6 +259,14 @@ $LogoHowest-url: '../themes/default/images/howest.png';
     width:660px;
 
 
+
+  }
+
+  #uitleg{
+    width:660px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
 
   }
 }
@@ -299,6 +315,14 @@ $LogoHowest-url: '../themes/default/images/howest.png';
     width:220px;
 
 
+
+  }
+
+  #uitleg{
+    width:220px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
 
   }
 }
