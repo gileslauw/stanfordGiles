@@ -272,6 +272,9 @@ $LogoHowest-url: '../themes/default/images/howest.png';
     font-size: 0.6em!important;
 
   }
+  h1{
+    font-size:1.6em;
+  }
   header.global{
     height: 8em!important;
   }
@@ -300,17 +303,20 @@ $LogoHowest-url: '../themes/default/images/howest.png';
 .home>header>div>img{
   width: 100%;
 }
-.home>header>div>h2{
+.home>header>div>h2 {
   text-align: center;
   margin-top: -5%;
-  margin-left:30%;
+  margin-left: 30%;
   font-size: 2em;
   margin-left: 5%;
   margin-bottom: 80px;
-  color: #ffffff!important;
+  color: #ffffff !important;
 
 }
 
+.intro-inner-wrapper{
+  min-width: 300px!important;
+}
 header a{
 
 }
@@ -807,6 +813,17 @@ a.enter-course:hover{
   box-shadow: none !important;
 }
 
+.course-info header.course-profile .intro-inner-wrapper .intro .main-cta strong{
+  background-image: none !important;
+  background-color: #3CB5DE !important;
+  box-shadow: none !important;
+}
+
+.course-info header.course-profile .intro-inner-wrapper .intro .main-cta strong:hover{
+  background-image: none !important;
+  background-color: #3CB5DE !important;
+  box-shadow: none !important;
+}
 .new-post-btn{
   background-image: none !important;
   border: none !important;
