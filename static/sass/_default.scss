@@ -208,7 +208,7 @@ $LogoHowest-url: '../themes/default/images/howest.png';
 }
 
 
-@media all and (max-width: 2000px) {
+@media all and (max-width: 200000px) {
   .vakken{
     display: block;
     margin-left: auto;
@@ -226,6 +226,7 @@ $LogoHowest-url: '../themes/default/images/howest.png';
     margin-left: auto;
     margin-right: auto;
     padding-top: 80px;
+    padding-left:10px;
 
   }
 }
@@ -250,6 +251,7 @@ $LogoHowest-url: '../themes/default/images/howest.png';
       margin-left: auto;
       margin-right: auto;
       padding-top: 80px;
+      padding-left:10px;
 
     }
 }
@@ -275,6 +277,7 @@ $LogoHowest-url: '../themes/default/images/howest.png';
     margin-left: auto;
     margin-right: auto;
     padding-top: 80px;
+    padding-left:10px;
 
   }
 }
@@ -331,6 +334,7 @@ $LogoHowest-url: '../themes/default/images/howest.png';
     margin-left: auto;
     margin-right: auto;
     padding-top: 80px;
+    padding-left:10px;
 
   }
 }
@@ -849,11 +853,15 @@ a.enter-course:hover{
   background-image: none !important;
   background-color: #3CB5DE !important;
   box-shadow: none !important;
+  color:#fff;
+  border-width: 0px;
+  padding: 13px!important;
+  min-width: 113px;
 }
 
 .course-info header.course-profile .intro-inner-wrapper .intro .main-cta strong:hover{
   background-image: none !important;
-  background-color: #3CB5DE !important;
+  background-color: #fef200 !important;
   box-shadow: none !important;
 }
 .new-post-btn{
